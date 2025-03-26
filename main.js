@@ -26,6 +26,17 @@ ScrollReveal().reveal(".header__container h2", {
     ...scrollRevealOption,
 })
 
-ScrollReveal().reveal(".header__container h2", {
+ScrollReveal().reveal(".header__container h1", {
     ...scrollRevealOption,
+    delay: 500
+})
+
+ScrollReveal().reveal(".header__container p", {
+    ...scrollRevealOption,
+    delay: 1000
+})
+
+ScrollReveal().reveal(".header__btns", {
+    ...scrollRevealOption,
+    delay: 1500
 })
