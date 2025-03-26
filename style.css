@@ -167,6 +167,29 @@ nav{
     color: var(--primary-color);
 }
 
+.header__container{
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+}
+
+.header__container h2{
+    max-width: fit-content;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #fa6021;
+    background-color: #fff8f5;
+    border-radius: 5rem;
+}
+
+/* Media Query*/
+
 @media (width > 768px){
     nav{
         position: static;
