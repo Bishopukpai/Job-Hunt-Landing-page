@@ -108,7 +108,9 @@ html, body{
 }
 
 body{
-    font-family: "Poppins" sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 nav{
@@ -118,5 +120,14 @@ nav{
     max-width: var(--max-width);
     margin-inline: auto;
     z-index: 9;
+}
+
+.nav__header{
+    padding: 1rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--extra-light);
 }
 
