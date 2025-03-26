@@ -111,3 +111,12 @@ body{
     font-family: "Poppins" sans-serif;
 }
 
+nav{
+    position: fixed;
+    isolation: isolate;
+    width: 100%;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    z-index: 9;
+}
+
