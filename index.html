@@ -7,6 +7,10 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link
+       rel="stylesheet"
+       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css">
     <title>Job Tour</title>
 </head>
@@ -343,8 +347,77 @@
             Read Testimonials and success stories from our satisfied 
             Job seekers and Employers.
         </p>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+         <!-- Slides -->
+         <div class="swiper-slide">
+            <div class="client__card">
+                <img src="assets/client-1.jpg" alt="">
+                <p>
+                    Job Tour made my Job search journey beautiful.
+                    I only had to upload my resume and I got matched with
+                    tailored jobs that complimented my skills.
+                </p>
+                <div class="client__ratings">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                </div>
+                <h4>Olivia Jonas</h4>
+                <h5>Product Engineer</h5>
+            </div>
+         </div>
+         <div class="swiper-slide">
+            <div class="client__card">
+                <img src="assets/client-2.jpg" alt="">
+                <p>
+                    I tried hiring a Software Engineer to join my team.
+                    It was difficult and I could not really get what I wanted.
+                    But with Job hunt I was able to get a good ReactJS Developer
+                    and my Job was completed
+                </p>
+                <div class="client__ratings">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-half-line"></i></span>
+                </div>
+                <h4>Joel Patel</h4>
+                <h5>HR Manager</h5>
+            </div>
+         </div>
+         <div class="swiper-slide">
+            <div class="client__card">
+                <img src="assets/client-3.jpg" alt="">
+                <p>
+                   As a recent graduate of computer science, getting a job
+                   was stressful and I did not know where to start from.
+                   When I signed up for a Job hunt account I was asked to 
+                   enter my skill sets and a resume was automatically created for 
+                   me. I received tailored Job recommendation which I applied for 
+                   and I got hired.
+                </p>
+                <div class="client__ratings">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                </div>
+                <h4>Samuel Davidson</h4>
+                <h5>Software Engineer</h5>
+            </div>
+         </div>
+      </div>
+    </div>
     </section>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
