@@ -16,6 +16,8 @@ navLinks.addEventListener("click", (e)=> {
     menuBtnIcon.setAttribute("class", "ri-menu-line")
 })
 
+/*Scroll Reveal Animation*/
+
 const scrollRevealOption = {
     distance: "50px",
     origin: "bottom",
@@ -39,4 +41,14 @@ ScrollReveal().reveal(".header__container p", {
 ScrollReveal().reveal(".header__btns", {
     ...scrollRevealOption,
     delay: 1500
+})
+
+ScrollReveal().reveal(".step__card", {
+    ...scrollRevealOption,
+   interval: 500,
+})
+
+ScrollReveal().reveal(".explore__card", {
+    duration: 1000,
+   interval: 500,
 })
