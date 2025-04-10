@@ -62,3 +62,23 @@ ScrollReveal().reveal(".offer__card", {
     ...scrollRevealOption,
    interval: 500,
 })
+
+document.addEventListener("DOMContentLoaded", function () {
+    const swiper = new Swiper(".swiper", {
+        loop: true, // Enables infinite looping
+        autoplay: {
+            delay: 3000, // Auto-slide every 3 seconds
+            disableOnInteraction: false,
+        },
+        slidesPerView: 1, // Shows one slide at a time
+        spaceBetween: 10, // Adds spacing between slides
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true, // Enables clicking pagination dots
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+});
